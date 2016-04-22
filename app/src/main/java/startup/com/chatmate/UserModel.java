@@ -14,6 +14,9 @@ public class UserModel implements Parcelable {
     private int pending_msg;
     private List<ChatMessage> chatMessagesList;
 
+    public UserModel(){
+
+    }
 
     public UserModel(Parcel in) {
         name = in.readString();
